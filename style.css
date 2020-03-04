@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+.data-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#app{
+    background: #ffffff;
+    font-family:  'Be Vietnam', sans-serif;
+}
+
+.data-container h3{
+    font-size: 1.2rem;
+    flex-basis: 100%;
+}
+
+.data-item{
+    flex-basis: 15%;
+    text-align: center;
+    vertical-align: center;
+    margin: 0.5em;
+    height: 14vh;
+    padding: 0.2em;
+    background: rgb(54, 80, 33);
+    color: #fff;
+}
+
+.data-item:hover{
+    background: rgb(243, 134, 134);
+}
+
+.leaderboard{
+    background: #84DCCF;
+    width: 100%;
+}
+
+.leaderboard ol{
+    list-style-type: i;
+}
+
+.leaderboard li{
+    box-shadow: 0 0.9rem 0.9rem 0.2rem rgba(0, 0, 0, 0.09);
+    line-height: 1.6em;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0.8em;
+    width: 100%;
+    background: #BCCCE0;
+    color: #312F2F;
+}
+
+.pointsForm button{
+    margin: 1.2rem;
+}
+
+.warning-dq{
+    color: white;
+    background: rgb(99, 0, 0);
+}
+
+.points-detail{
+    display: flex;
+    align-items: center;
+}
+
+.detail{
+    height: 2.5em;
+    margin: 0.1rem;
+    width: auto;
+    background: #312F2F;
+    color: #A6D9F7;
+}
+
+.transitioning{
+    
+}
+
+@media only screen and (min-width: 993px){
+nav a.sidenav-trigger {
+    display: block;
+}
+    .container{
+        width:100%;
+    }
+}
